@@ -1,7 +1,7 @@
 import casa.*
 import cosas.*
 
-describe "Tests de cuentaCorriente y cuentaConGastos" {
+describe "Tests para la casa de Pepe y Julián" {
   test "Para la cuenta corriente" {
     cuentaCorriente.nuevoSaldo(20)
     cuentaCorriente.depositar(1000)
